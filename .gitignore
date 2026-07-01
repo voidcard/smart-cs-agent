@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+server/**/*.js
+server/**/*.d.ts
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Local database (session data)
+data/*.db
+data/*.db-journal
+
+# Local IDE / agent config
+.claude/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vite
+vite.config.js
+vite.config.d.ts
