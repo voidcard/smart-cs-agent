@@ -129,7 +129,7 @@ npm run dev
 | 前端 (Vite) | http://localhost:5173 |
 | 后端 (Express) | http://localhost:3000 |
 
-首次启动会自动创建 `data/chat.db` 并写入测试用户 **舒珺琦**（VIP2）、6 条订单与 2 条退款记录。
+首次启动会自动创建 `data/chat.db` 并写入测试用户 **test**（VIP2）、6 条订单与 2 条退款记录。
 
 ---
 
